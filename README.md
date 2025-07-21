@@ -1,1 +1,1 @@
-# FastQuiz
+mobile app for generating quiz questions from PDF study material using OpenAI API. It includes basic gamification features such as badges and feedback. The backend is built with FastAPI , and the frontend is developed in Android Studio.
