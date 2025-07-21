@@ -3,9 +3,9 @@ from firebase_admin import db
 import json
 
 def initialize_db():
-    cred_obj = firebase_admin.credentials.Certificate('C:\\Users\\dylan\\backend_FastAPI\\mobileapp-7f8b1-firebase-adminsdk-mtyrk-f2ff7014b1.json')
+    cred_obj = firebase_admin.credentials.Certificate()
     default_app = firebase_admin.initialize_app(cred_obj, {
-    'databaseURL':'https://mobileapp-7f8b1-default-rtdb.europe-west1.firebasedatabase.app/'
+    'databaseURL':#url here removed
     })
 
 
